@@ -1,4 +1,5 @@
 var os = require('os');
+var colors = require('colors');
 var uptime = require('../modules/time');
 var release = os.release();
 var cpu = os.cpus()[0].model;

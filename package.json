@@ -13,5 +13,8 @@
     "node"
   ],
   "author": "szerminski\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dg.\u001b[2~szerminski",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.2.0"
+  }
 }
