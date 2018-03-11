@@ -13,12 +13,12 @@ function getOsInfo() {
     	type = 'Windows';
 	}
 
-	console.log('System:', type);
-	console.log('Release:', release);
-	console.log('CPU model:', cpu);
-	console.log('Uptime: ', uptime.time());
-	console.log('User name:', userInfo.username);
-	console.log('Home dir:', userInfo.homedir);
+	console.log('System:'.gray, type);
+	console.log('Release:'.red, release);
+	console.log('CPU model:'.blue, cpu);
+	console.log('Uptime: '.green, uptime.time());
+	console.log('User name:'.yellow, userInfo.username);
+	console.log('Home dir:'.white, userInfo.homedir);
 };
 
 exports.print = getOsInfo;
